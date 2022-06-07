@@ -2,6 +2,7 @@
     "100": {
         "file": "loc_0045_im_000508.jpg",
         "url": "http://s3.aws/bucket/path",
+        "thumb_url": "http://s3.aws/bucket/path/thumb.jpg",
         "image_date": "2016-01-08",
         "process_date": "2021-11-12",
         "region": "A7",
@@ -29,6 +30,7 @@
     "101": {
         "file": "loc_0045_im_000834.jpg",
         "url": "http://s3.aws/bucket/path",
+        "thumb_url": "http://s3.aws/bucket/path/thumb.jpg",
         "image_date": "2016-01-10",
         "process_date": "2021-11-12",
         "region": "A7",
@@ -56,6 +58,7 @@
     "200": {
         "file": "loc_0014_im_000879.jpg",
         "url": "http://s3.aws/bucket/path",
+        "thumb_url": "http://s3.aws/bucket/path/thumb.jpg",
         "image_date": "2016-01-10",
         "process_date": "2021-11-12",
         "region": "A4",
@@ -81,6 +84,7 @@
     "300": {
         "file": "loc_0044_im_000586.jpg",
         "url": "http://s3.aws/bucket/path",
+        "thumb_url": "http://s3.aws/bucket/path/thumb.jpg",
         "image_date": "2016-01-7",
         "process_date": "2021-11-12",
         "region": "B7",
