@@ -1,7 +1,7 @@
 {
     "100": {
         "file": "loc_0045_im_000508.jpg",
-        "url": "http://s3.aws/bucket/path",
+        "url": "https://bowerman-c4c.s3.amazonaws.com/loc_0045_im_000508.jpg",
         "thumb_url": "http://s3.aws/bucket/path/thumb.jpg",
         "image_date": "2016-01-08",
         "process_date": "2021-11-12",
@@ -29,7 +29,7 @@
 
     "101": {
         "file": "loc_0045_im_000834.jpg",
-        "url": "http://s3.aws/bucket/path",
+        "url": "https://bowerman-c4c.s3.amazonaws.com/loc_0045_im_000834.jpg",
         "thumb_url": "http://s3.aws/bucket/path/thumb.jpg",
         "image_date": "2016-01-10",
         "process_date": "2021-11-12",
@@ -57,7 +57,7 @@
 
     "200": {
         "file": "loc_0014_im_000879.jpg",
-        "url": "http://s3.aws/bucket/path",
+        "url": "https://bowerman-c4c.s3.amazonaws.com/loc_0014_im_000879.jpg",
         "thumb_url": "http://s3.aws/bucket/path/thumb.jpg",
         "image_date": "2016-01-10",
         "process_date": "2021-11-12",
