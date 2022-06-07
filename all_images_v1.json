@@ -1,0 +1,110 @@
+{
+    "100": {
+        "file": "loc_0045_im_000508.jpg",
+        "url": "http://s3.aws/bucket/path",
+        "image_date": "2016-01-08",
+        "process_date": "2021-11-12",
+        "region": "A7",
+        "zone": 43,
+        "trap": 37,
+        "trap_name":  "rock hills 37",
+        "location": [45.712410, -110.531611],
+        "detections": {
+            "class": "mountain_lion",  
+            "bbox": [{"category": "animal",
+                      "bbox": [0, 0.347, 0.237, 0.257]}],
+            "label": ["cat"],
+            "conf": 0.01176,
+            "hide": false
+        },
+        "subject":"Mountain Lion",
+        "labels": ["animal","mammal","cats","BLM"],
+        "notes":"First Spotted 2014",
+        "owner": "user55",
+        "authorized": ["admin","steward3","steward4","user55","researcher44","researcher302"],
+        "guest": ["public"]
+
+    },
+
+    "101": {
+        "file": "loc_0045_im_000834.jpg",
+        "url": "http://s3.aws/bucket/path",
+        "image_date": "2016-01-10",
+        "process_date": "2021-11-12",
+        "region": "A7",
+        "zone": 43,
+        "trap": 37,
+        "trap_name":  "rock hills 37",
+        "location": [45.713, -110.5317],
+        "detections": {
+            "class": "mountain_lion",  
+            "bbox": [{"category": "animal",
+                      "bbox": [0, 0.347, 0.237, 0.257]}],
+            "label": ["cat"],
+            "conf": 0.01176,
+            "hide": false
+        },
+        "subject":"Mountain Lion",
+        "labels": ["animal","mammal","cats","BLM"],
+        "notes":"First Spotted 2014",
+        "owner": "user55",
+        "authorized": ["admin","steward3","steward4","user55","researcher44","researcher302"],
+        "guest": ["public"]
+
+    },
+
+    "200": {
+        "file": "loc_0014_im_000879.jpg",
+        "url": "http://s3.aws/bucket/path",
+        "image_date": "2016-01-10",
+        "process_date": "2021-11-12",
+        "region": "A4",
+        "zone": 18,
+        "trap": 20,
+        "trap_name":  "Beaumont 20",
+        "location": [45.80, -109.5317],
+        "detections": {
+            "class": "elk",  
+            "bbox": [{"category": "animal",
+                      "bbox": [0, 0.347, 0.237, 0.257]}],
+            "label": ["Bull elk"],
+            "conf": 0.01176,
+            "hide": true
+        },
+        "subject":"Bull Elk",
+        "labels": ["animal","mammal","elk"],
+        "owner": "user25",
+        "authorized": ["admin","steward3","steward4","user25","researcher44"],
+        "guest": []
+
+    },
+    "300": {
+        "file": "loc_0044_im_000586.jpg",
+        "url": "http://s3.aws/bucket/path",
+        "image_date": "2016-01-7",
+        "process_date": "2021-11-12",
+        "region": "B7",
+        "zone": 22,
+        "trap": 30,
+        "trap_name":  "Larson Ranch",
+        "location": [45.60, -108.52],
+        "detections": {
+            "class": "deer",  
+            "bbox": [{"category": "animal",
+                      "bbox": [0, 0.347, 0.237, 0.257]}],
+            "label": ["Mule Deer"],
+            "conf": 0.01176,
+            "hide": false
+        },
+        "subject":"Mule Deer",
+        "labels": ["animal","mammal","deer"],
+        "owner": "user25",
+        "authorized": ["admin","steward3"],
+        "guest": ["public"]
+
+    }
+
+
+
+
+}
