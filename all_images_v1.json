@@ -83,7 +83,7 @@
     },
     "300": {
         "file": "loc_0044_im_000586.jpg",
-        "url": "http://s3.aws/bucket/path",
+        "url": "https://bowerman-c4c.s3.amazonaws.com/loc_0044_im_000586.jpg",
         "thumb_url": "http://s3.aws/bucket/path/thumb.jpg",
         "image_date": "2016-01-7",
         "process_date": "2021-11-12",
