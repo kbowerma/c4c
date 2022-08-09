@@ -1,0 +1,6 @@
+# MegaDetector
+The 2 commands in `predict.sh` will run the MegaDetector predictions on the images in `/images` and output `src/megadetector/test_output.json`.
+
+You must clone the yolov5, cameratraps, and ai4eutils repos for the codebase to work. The directory structure assumes these are cloned into a parent folder to this c4c repo (e.g. `YERC/c4c`, `YERC/ai4eutils`, etc.). Instructions were followed from the [MegaDetecor readme](https://github.com/microsoft/CameraTraps/blob/main/megadetector.md#using-the-model) just for this POC. I did not follow exactly, as I did not use a Conda environment (Pyenv instead). I initially tried only pulling the individual files needed to run the `cameratraps/detection/run_detector_batch.py` file but it was a lost cause given the dependency web in the codebase between all of the repos. The simplest solution for now is to clone all 3 and run that batch predictions file seamlessly. 
+
+The downside of clongin all of the repos is that they will need to be cloned to build the Docker container. But, once built, it should run easily. The repos are  7MB, 15MB, and 277MB. 
