@@ -2,6 +2,7 @@
 .venv
 *.pt
 src/megadetector/s3_images/sphinx_creek/*.JPG
+src/megadetector/s3_images/sphinx_creek/crops/*.JPG
 
 # Created by https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,jupyternotebooks

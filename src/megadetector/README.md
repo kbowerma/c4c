@@ -8,7 +8,7 @@ The downside of cloning all of the repos is that they will need to be cloned to 
 ## S3 Image Predictions
 To download images in S3 bucket, run from the `c4c/src/megadetector` dir:
 - `python s3_predictions.py`
-- 
+
 This script will create (if not existent) a local folder named the value of `LOCAL_DIR` and download recursively each file in `S3_DIR`. To change these values, just edit the script manually. This is a quick and dirty way to get some images to check MegaDetector predictions on. To run predictions on these, run from the `c4c/src/megadetector` dir:
 - `export PYTHONPATH="$PYTHONPATH:../../../cameratraps:../../../ai4eutils:../../../yolov5"`
 - `python ../../../cameratraps/detection/run_detector_batch.py "md_v5a.0.0.pt" "s3_images/sphinx_creek" "s3_images/sphinx_creek/s3_predictions_output.json" --output_relative_filenames --recursive`
